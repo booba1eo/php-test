@@ -1,0 +1,152 @@
+@media screen and (max-width: 1200px) {
+	.bx__slider {
+		width: 95%;
+	}
+	.box-modal {
+		width: 700px;
+	}
+	.menu__icon {
+		display: inline-block;
+	}
+	.menu__links {
+		position: fixed;
+		display: none;
+		top: 0;
+		right: 0;
+		left: 0;
+		margin-top: 52px;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 1000;
+		overflow: auto;
+	}
+	.menu__links-item {
+		display: block;
+		padding: 10px 0;
+		text-align: center;
+		color: #ffffff;
+	}
+	.header__btn {
+		margin-top: 19px;
+	}
+	.first__head {
+		margin-bottom: 85px;
+	}
+	.header__btn-link, .footer__btn-link {
+		padding: 7px 17px;
+	}
+	.contacts__map {
+		width: 90%;
+	}
+	.footer__unp {
+		margin: 11px auto 0px auto;
+	}
+}
+@media screen and (max-width: 992px) {
+	.bx-prev, .bx-next {
+		border: none;
+	}
+	.box-modal {
+		width: 500px;
+	}
+	.first {
+		background: url(../img/fon-first.png) no-repeat center top / cover;
+	}
+	.first__head {
+		margin-top: 240px;
+	}
+	.first__head-description {
+		color: #ffffff;
+		margin-bottom: 150px;
+	}
+	.confidentiality {
+		margin-top: 0px;
+	}
+	.footer__unp {
+		margin-top: 20px;
+	}
+	.menu__icon{
+    	display: inline-block;
+	}
+	.menu__links {
+		position: fixed;
+		display: none;
+		top: 0;
+		right: 0;
+		left: 0;
+		margin-top: 52px;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 1000;
+		overflow: auto;
+	}
+	.menu__links-item {
+		display: block;
+		padding: 10px 0;
+		text-align: center;
+		color: #ffffff;
+	}
+}
+@media screen and (max-width: 768px) {
+	.box-modal {
+		width: 400px;
+	}
+	.price__column {
+	}
+}
+@media screen and (max-width: 600px) {
+	.first__head {
+		margin-top: 160px;
+	}
+	#recall__form {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.box-modal {
+		width: 250px;
+	}
+	.logo__text {
+		display: none;
+	}
+	.order__input {
+		width: 90%;
+	}
+	.order__btn {
+		width: 90%;
+	}
+	.order__textarea {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 393px) {
+	.first__head {
+		margin-top: 135px;
+	}
+	.footer__unp {
+		margin-top: 5px;
+	}
+	.footer__instagram {
+		display: none;
+	}
+}
+@media screen and (max-width: 378px) {
+	.confidentiality__title {
+		font-size: 1.3rem;
+	}
+}
+@media screen and (max-width: 300px) {
+	.consent__title {
+		font-size: 1.3rem;
+	}
+	.consent__subtitle {
+		font-size: 1rem;
+	}
+	.confidentiality__title {
+		font-size: 1.3rem;
+	}
+	.confidentiality__subtitle {
+		font-size: 1rem;
+	}
+	.rules__title {
+		font-size: 1.3rem;
+	}
+}
