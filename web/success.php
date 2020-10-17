@@ -11,7 +11,7 @@ $radio = htmlspecialchars($_POST["radio"]);
 $refferer = getenv(HTTP_REFERER);
 $date=date("d.m.y"); // число.месяц.год
 $time=date("H:i"); // часы:минуты:секунды
-$myemail = "sasha_2804@mail.ru";
+$myemail = "lesnoi.komplex@gmail.com";
 
 $tema = "На связи Лесной, вам заявка!";
 $message_to_myemail = "Добрый день, вам пришла заявка! :)
