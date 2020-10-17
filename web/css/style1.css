@@ -456,9 +456,13 @@ label {
 
 .footer {
 	background: url(../img/fon-header.png) no-repeat center top / cover;
+	display: flex;
+	justify-content: center;
 }
 .footer__btn {
+	width: 200px;
 	margin-top: 19px;
+	margin-left: 100px;
 }
 .footer__btn-link {
 	border: 1px solid #1a0a00;
@@ -533,4 +537,9 @@ label {
 .rules__title {
 	font-size: 2rem;
 	margin-bottom: 30px;
+}
+.price__container {
+	display: flex;
+	align-self: start;
+	justify-content: center;
 }

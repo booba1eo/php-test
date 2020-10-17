@@ -461,6 +461,7 @@ label {
 }
 .footer__btn {
 	margin-top: 19px;
+	margin-left: 100px;
 }
 .footer__btn-link {
 	border: 1px solid #1a0a00;

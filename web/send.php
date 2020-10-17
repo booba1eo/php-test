@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST['submit'])){
-$to = "sasha_2804@mail.ru";; // Здесь нужно написать e-mail, куда будут приходить письма
+$to = "lesnoi.komplex@gmail.com";; // Здесь нужно написать e-mail, куда будут приходить письма
 $from = $_POST['tel']; // this is the sender's Email address
 $first_name = $_POST['name'];
 $subject = "Форма отправки сообщений с сайта";
